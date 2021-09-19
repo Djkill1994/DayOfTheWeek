@@ -1,9 +1,16 @@
-body{
-    background-color: gray;
+body {
+    background-image: url("/img/makro-priroda-paporotnik-vetki-listia-zelenyi-fon.jpg");
     font-size: 70px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    opacity: 0.7;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    text-shadow: black 5px 15px 25px;
 }
 
-.project-window{
+.project-window {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,14 +18,6 @@ body{
     margin-top: 100px;
 }
 
-.today-is{
-
-}
-
-.day{
-
-}
-
-.phrase-of-the-day{
-
+.phrase-of-the-day {
+    font-size: 50px;
 }
