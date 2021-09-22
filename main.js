@@ -12,7 +12,7 @@ let objectWeekDay = {
 }
 
 function showDay() {
-    let date = new Date(2021, 1, 1);
+    let date = new Date();
     let option = {
         weekday: 'long'
     };
